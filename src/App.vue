@@ -1,7 +1,7 @@
 <template>
 <div>
   <ele-header/>
-  <div class="tab border-1px">
+  <div class="tab">
     <div class="tab-item">
       <router-link to="/goods">商品</router-link>
     </div>
@@ -24,7 +24,7 @@ export default {
      'ele-header':header
    },
   mounted(){
-    // 使用vue-resource发送ajax请求express提供mock接口
+    /*// 使用vue-resource发送ajax请求express提供mock接口
     this.$http.get('/api/seller')
       .then(response => {
         const result = response.data
@@ -35,7 +35,7 @@ export default {
       .then(response => {
         const result = response.data
         console.log('axios', result)
-      })
+      })*/
     // 通过dispath()来触发action调用获取后台seller数据
     this.$store.dispatch('getSeller')
   },

@@ -98,7 +98,7 @@
     background-color rgba(7,17,27,0.5)
     .content-wrapper
       position relative
-      padding  36px 12px 18px 36px
+      padding  24px 12px 18px 24px;
       display flex
       .avatar
         width 64px
@@ -158,8 +158,8 @@
         position absolute
         right 12px
         bottom 18px
-        height 36px
-        padding 7px 8px
+        height 24px
+        padding 2px 8px
         background-color rgba(0,0,0,0.2)
         box-sizing border-box
         border-radius 8px
@@ -209,7 +209,7 @@
       position fixed
       top: 0
       left 0
-      z-index 10
+      z-index 100
       width 100%
       height 100%
       background-color rgba(7,17,27,0.8)
